@@ -1,0 +1,653 @@
+<!-- doctype refer to HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This information about Meta -->
+    <meta charset="UTF-8" />
+    <title>Book store</title>
+    <meta name="description" content="this is my page" />
+    <style></style>
+    <script></script>
+    <!-- <link rel="stylesheet" href=""> it's using to calling out css file  -->
+    <link rel="stylesheet" href="">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <!-- this is my  السلام عليكم -->
+    <!-- 1-comments Eslam EL nayed E111096Ma@# -->
+    <!-- 2-heaading h1...h6  -->
+    <!-- <h1> is a heading case</h1>  -->
+    <!-- paragrph elemants 
+                <p>this is a 
+                    test place1  </p>
+                <p hidden>this is a test place2 </p>
+                <p>this is a test place3  </p>-->
+    <!-- properites of font
+                <strong></b>= Bold 
+                <strong>=bold important text
+                <i> =Italic 
+                <em>= emphasize=italic
+                <mark>=highlighted
+                <u>=underline
+                <small>=smaller text
+                <del>=deleted text
+                <ins>=inserted text
+                <sup>=superscript=(powr)
+                <sub>=subscript
+                
+            <p><b>this is a test place3  </b></p>
+            <p><strong>this is a test place3  </strong></p>
+            <p><i>this is a test place3  </i></p>
+            <p><em>this is a test place3  </em></p>
+            <p><em>this is a <mark> test place3</mark>  </em></p>
+            <p><i>this is a test place3  </i></p>
+            <p><small>this is a test place3  </small></p>
+            <p><del>this is a test place3  </del></p>
+            <p><del>$100</del> $80</p>
+            <p><ins>this is a test place3  </ins></p>
+                <p>H<sub>2</sub>O</p>
+                <p>3<sup>2</sup></p>
+                -->
+    <!-- Links a=anchor tag  href=hypereferance
+                target =meaning open in or another page
+                Titel = when stop about the link
+                ->assemint.html=normal page in our project
+                ->#muh =go to line in this page with this id(muh)
+                ->mailto:muh01127245945@gmail.com= go to thidd mail
+                
+                <a href="http://google.com" target="_blank" title="GO TO GOOGLe">GOOGLE</a>
+                <a href="http://FaceBOOK.com"target="_blank" title="GO TO FaceBOOK">FaceBOOK</a>
+                <a href="assemint.html" target="_blank" title="GO TO Ass">Assiment page</a>
+                <a href="#muh" target="_blank" title="GO TO muh">muh line</a>
+                <a href="mailto:muh01127245945@gmail.com" target="_blank" title="GO TO this mail">Conect me</a>
+                <p id="muh"> Elzero web school Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Adipisci, perspiciatis cupiditate rerum cum accusantium tenetur ipsum ducimus perferendis
+                    ea pariatur autem delectus iusto amet magni saepe ipsam sed architecto a.</p>
+                -->
+    <!-- Image and  dealing with path 
+                src=source of this image or place
+                alt=alternate Text meaning the text that apper when image nto found
+                
+                <img src="muhd.png" alt="will not show "> 
+                image ex:<img src="muhd.png" alt="logo testing" width="300px" height="300px"> 
+                -->
+    <!-- Tables it's using to show data from database conten rows and columes
+                    thead  T=table
+                    tbody
+                    tfoot
+                    tr=table row
+                    td=table data cell
+                    th=table hearder cell
+                    caption= titel for table
+                    colspan =meaning merg tow or more cells 
+                
+                EX:
+                <table border="1">
+                    <caption>this table for studen </caption>
+                    <thead>
+                        <tr>
+                            <th>fist</th>
+                            <th>last</th>
+                            <th>Marks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>Muhamed</td>
+                        <td>elnayed</td>
+                        <td>60</td>
+                        </tr>
+                        <tr>
+                        <td>Muhamed</td>
+                        <td>elnayed</td>
+                        <td>60</td>
+                        </tr>
+                        <tr>
+                        <td>Muhamed</td>
+                        <td>elnayed</td>
+                        <td>60</td>
+                        </tr>
+                        <tr>
+                        <td colspan="2">total</td>
+                        <td>60</td>
+                        </tr>
+                    </tbody>
+                    
+                </table>
+                -->
+    <!-- span and break and horizental rule 
+            span=>in line element to can control any word you want in your paragraph
+            br=break meaning start in a new line
+            hr = horizental rule 
+            ex:
+            <p>
+                getaddrinfo <span>ENOTFOUND</span> download.visualstudio. <br />microsoft.com
+                <hr> 
+            </p>
+            -->
+    <!-- div and it's use 
+            <div></div>
+            -->
+    <!-- 18-Entites الرموز
+            i want to print <p> ->to write it &lt;p&gt;
+
+            <div>
+                <p>
+                    &copy; &lt;P&gt; &amp; &radic;
+                    roslynomnisharp.blob. core.windows.net/releases/
+                    1.37.16/omnisharp-win-x64-1.37.16.zip' Failed at stage:
+                    downloadPackage
+                </p>
+            </div>
+            -->
+    <!-- 19-semantic element العناصر المنطقية
+            it's use in HTML5 to make the web page easy any one can read it 
+            and it's leas divs in your page by using semantic name like header footer nav igation ...
+            Ex:
+            <header> web page </header>
+            <nav> link1-link2-link3</nav>
+            <section>
+                <section>
+                    <aside> Right side </aside>
+                </section>
+            </section>
+            <footer>End of page </footer>
+            -->
+    <!-- 20-layout with div and class
+            EX:
+            <div class="haeder">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>contant us</li>
+                </ul>
+            </div>
+            <hr>
+            <ul class="navigation">
+                <li>lin1</li>
+                <li>lin2</li>
+                <li>lin3</li>
+                <li>lin4</li>
+                <li>lin5</li>
+                <li>lin6</li>
+                <li>lin7</li>
+            </ul>
+            <hr>
+            <div class="content">
+                Content
+                <img src="C:/Users/Eng_Muhamed El-Nayed/Desktop/imaaa.jpg" alt="not found">
+                <div class="sidebar">
+                    Sidebar
+                </div>
+            </div>
+            <div class="footer">
+                Footer
+            </div>
+            -->
+    <!-- 21-layout with semantic elemants
+    EX:
+    <header class="haeder">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>contant us</li>
+        </ul>
+    </header>
+    <hr>
+    <nav class="navigation">
+        <ul>
+            <li>lin1</li>
+            <li>lin2</li>
+            <li>lin3</li>
+            <li>lin4</li>
+            <li>lin5</li>
+            <li>lin6</li>
+            <li>lin7</li>
+        </ul>
+    </nav>
+    <hr>
+    <section class="content">
+        Content
+        <figure>
+            <img src="C:/Users/Eng_Muhamed El-Nayed/Desktop/imaaa.jpg" alt="not found">
+            <figcaption>caption of the  image </figcaption>
+        </figure>
+        <div class="sidebar">
+            Sidebar
+        </div>
+    </section>
+    <div class="footer">
+        Footer
+    </div>
+     -->
+    <!-- 22- Audio
+        src=source place 
+        type = every audio have type (calling mimetype)
+        controls = should write to show audio and can control in your audio  
+        autoplay = working direct
+        loop = replay another once
+        muted = silent  
+    EX:
+    <audio controls autoplay loop muted>
+        <source src="media/abobaker.mp3" type="audio/mpeg">
+        your browser doesn't support audio tages
+    </audio>
+    -->
+    <!-- 23-video
+    poster = show image or any thing until video loading
+    track  = using by people that have problems in his body like hearing ... 
+    kind   = type of subtitle like{english ,frinsh,italy ..}
+    srclan = source of language 
+    label  = name of language in label that will show in web page   
+    EX:
+    <video controls autoplay loop muted width="400" height="200" poster="media/imag.jpg">
+        <source src="media/1.mp4">
+        <track src="dkdclkm_en.vtt" kind="captions" srclang="en" label="english">
+        <track src="dkdclkm_it.vtt" kind="captions" srclang="it" label="italy">
+    </video>
+    -->
+    <!-- 24-form part1 input type and label
+    EX:
+    <form>
+        <div>
+            <label> Username</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    -->
+    <!-- 25-form part2 palceholder ,required and Value 
+    reuired = you should Write it in your Form.
+    palceholder = help user to write in label
+    EX:
+    <form>
+        <div>
+            <label> Username</label>
+            <input type="text" required placeholder="Enter Username ">
+        </div>
+        <br>
+        <div>
+            <label>Subject</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" required placeholder="Write a complex Password">
+        </div>
+        <br>
+        <div>
+            <label>E-Mail</label>
+            <input type="email" required placeholder="write a valid mail" value="mau@nn.sa">
+        </div>
+        <br>
+        <input type="submit" value="Save">
+        </div>
+    </form>
+    -->
+    <!-- 26-Form part3 action,Name and method.
+        action = the place that i will send this data for it(The URI of a program that processes 
+        the form information. This value can be overridden by a 
+        formaction attribute on a <button> or <input> element.)
+        name   = of input that will using in database.
+        method = it's usinfg to send data to server(Post, Get and dialog)
+    EX:
+    <form action="" method="POST">
+        <div>
+            <label> Username</label>
+            <input type="text" required placeholder="Enter Username " name="">
+        </div>
+        <br>
+        <div>
+            <label>Subject</label>
+            <input type="text" name="sub">
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" required placeholder="Write a complex Password" name="pass">
+        </div>
+        <br>
+        <div>
+            <label>E-Mail</label>
+            <input type="email" required placeholder="write a valid mail" value="mau@nn.sa" name="mail">
+        </div>
+        <br>
+        <input type="submit" value="Save">
+        </div>
+    </form>
+    -->
+    <!-- 27-Form part4 hidden,reset,color,range and num
+    EX:
+    <form action="" method="GET">
+        <div>
+            <label> Username</label>
+            <input type="text" required placeholder="Enter Username " name="user" value="Muhamed" readonly>
+        </div>
+        <br>
+        <div>
+            <label>Subject</label>
+            <input type="text" name="sub">
+        </div>
+        <div>
+            <input type="hidden" name="muh">
+        </div>
+        <br>
+        <div>
+            <label>color</label>
+            <input type="color" name="Color">
+        </div>
+        <br>
+        <div>
+            <label>Range</label>
+            <input type="range" name="range" min="0" max="100" step="10" value="50">
+            value =start step
+        </div>
+        <br>
+        <div>
+            <label>Number</label>
+            <input type="number" name="number" min="10" max="100" step="10" value="50" autofocus>
+            not:value =start step
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" required placeholder="Write a complex Password" name="pass" minlength="5"
+                maxlength="8">
+        </div>
+        <br>
+        <div>
+            <label>E-Mail</label>
+            <input type="email" required placeholder="write a valid mail" value="mau@nn.sa" name="mail" disabled>
+        </div>
+
+        <div>
+            <input id="win" type="radio" name="os" value="windows">
+            <label for="win">windows</label>
+        </div>
+        <div>
+            <input id="lin" type="radio" name="os" value="linux" checked>
+            <label for="lin">linux</label>
+        </div>
+        <div>
+            <input id="mac" type="radio" name="os" value="mac">
+            <label for="mac">Mac</label>
+        </div>
+        <hr>
+        <input type="submit" value="Save">
+        <input type="reset" value="RESET">
+        </div>
+    </form>
+ -->
+    <!-- 28-Form part5 readonly,disable and autofocus
+            readonly = can't write in this text.
+            disable  = can't send or do any change in this data. 
+            autofocus= go to palce you are focus in it to write in it.
+            == in password minlength and maxlength
+        EX: 
+        <form action="" method="GET">
+        <div>
+            <label> Username</label>
+            <input type="text" required placeholder="Enter Username " name="user" value="Muhamed" readonly>
+        </div>
+        <br>
+        <div>
+            <label>Subject</label>
+            <input type="text" name="sub">
+        </div>
+        <div>
+            <input type="hidden" name="muh">
+        </div>
+        <br>
+        <div>
+            <label>color</label>
+            <input type="color" name="Color">
+        </div>
+        <br>
+        <div>
+            <label>Range</label>
+            <input type="range" name="range" min="0" max="100" step="10" value="50">
+            not:value =start step
+        </div>
+        <br>
+        <div>
+            <label>Number</label>
+            <input type="number" name="number" min="10" max="100" step="10" value="50" autofocus>
+            not:value =start step
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" required placeholder="Write a complex Password" name="pass" minlength="5"
+                maxlength="8">
+        </div>
+        <br>
+        <div>
+            <label>E-Mail</label>
+            <input type="email" required placeholder="write a valid mail" value="mau@nn.sa" name="mail" disabled>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <input id="win" type="radio" name="os" value="windows">
+            <label for="win">windows</label>
+        </div>
+        <div>
+            <input id="lin" type="radio" name="os" value="linux" checked>
+            <label for="lin">linux</label>
+        </div>
+        <div>
+            <input id="mac" type="radio" name="os" value="mac">
+            <label for="mac">Mac</label>
+        </div>
+        <hr>
+        <input type="submit" value="Save">
+        <input type="reset" value="RESET">
+        </div>
+    </form>
+        -->
+    <!-- 29-from part6 radio and checkbox
+             radio choose only one choose (checked defualt ) 
+             لكي تجعل الليبل مرتبط ب input يجب for
+            (ID) in input and (FOR) in label to make them concatination 
+    EX:
+    <div>
+        <form action="" method="GET">
+            <div>
+                <label for="num">Number</label>
+                <input id="num" type="number" name="number" min="10" max="100" step="10" value="50" autofocus>
+            </div>
+            <div>
+                <input id="win" type="radio" name="os" value="windows">
+                <label for="win">windows</label>
+            </div>
+            <div>
+                <input id="lin" type="radio" name="os" value="linux" checked>
+                <label for="lin">linux</label>
+            </div>
+            <div>
+                <input id="mac" type="radio" name="os" value="mac">
+                <label for="mac">Mac</label>
+            </div>
+            <hr>
+            <div>
+                <input id="win1" type="checkbox" name="os" value="windows">
+                <label for="win1">windows</label>
+            </div>
+            <div>
+                <input id="lin1" type="checkbox" name="os" value="linux" checked>
+                <label for="lin1">linux</label>
+            </div>
+            <div>
+                <input id="mac1" type="checkbox" name="os" value="mac">
+                <label for="mac1">Mac</label>
+            </div>
+            <hr>
+            <input type="submit" value="Save">
+            <input type="reset" value="RESET">
+    </div>
+    </form>
+    -->
+    <!-- 30-Form part7 select and textarea
+    (for) write the (id) to concat together 
+    select to make alot of options .
+    optgroup = to determin options to groups  .
+    multiple = to can choose multiple choose .
+    selected = option that the pointer will stop about it . 
+    textarea = to write any text you want 
+    EX:
+    <form action="">
+        <label for="book">Choose Book :</label>
+        <select name="book" id="book" multiple>
+            <optgroup label="Romantic BOOks">
+                <option value="1">book1</option>
+                <option value="2" selected>book2</option>
+                <option value="3">book3</option>
+            </optgroup>
+            <optgroup label="police BOOKs">
+                <option value="4">book4</option>
+                <option value="5">book5</option>
+                <option value="6">book6</option>
+            </optgroup>
+        </select>
+        <hr>
+        <textarea name="text-area" cols="30" rows="10" placeholder="write a coment"></textarea>
+        <hr>
+        <input type="submit" value="Save">
+        <input type="reset" value="RESET">
+    </form>
+    -->
+    <!-- 31-Form part8 File, search,URL and Time
+        file = to can upload any file you want ( image or CV or another any thing  )
+    Ex:
+    <form action="">
+        <div>
+            <label for="">UPlaod</label>
+            <input type="file">
+        </div>
+        <hr>
+        <div>
+            <label for="">search</label>
+            <input type="search">
+        </div>
+        <hr>
+        <div>
+            <label for="">URL</label>
+            <input type="url">
+        </div>
+        <hr>
+        <div>
+            <label for="">Date</label>
+            <input type="date">
+        </div>
+        <hr>
+        <div>
+            <label for="">Month</label>
+            <input type="month">
+        </div>
+        <hr>
+        <div>
+            <label for="">Time</label>
+            <input type="time">
+        </div>
+        <hr>
+        <input type="submit" value="Save">
+        <input type="reset" value="RESET">
+    </form>
+    -->
+    <!-- 32-form part9 datalist ,novalidate and target
+        novalidate = using in test to  show to you what will come back  
+        target     = open this page in new page
+        datalist   = IT'S like select but in it you can do  a search easly
+        and (option)  don't need a closing tage </option>
+    EX:
+    <form action="" method="GET" novalidate target="_blank">
+        <input list="programming" name="prg">
+        <datalist id="programming">
+            <option value="python">
+            <option value="pHP">
+            <option value="C">
+            <option value="c++">
+            <option value="c#">
+            <option value="scala">
+        </datalist>
+
+        <hr>
+        <input type="submit" value="Save">
+        <input type="reset" value="RESET">
+    </form>
+    -->
+    <!-- 33-Q ,blockQuote ,Wbr,Button and Bdi
+        Q   = meaning double quota to block of words(Wiseحكمة )
+        wbr = wordbreak oportunity to arrang big lines(using to determin the break from the place you want)
+        bdi = be diractional isolation to can isolatتعزل the english content and arabic content 
+    EX:
+    <q>this our page </q>
+    <blockquote>this our page </blockquote>
+    <button>click</button>
+    <div>https://moe-register.emis.gov.eg <wbr> /account/login?ReturnUrl<wbr>=%2Fhome%2FRegistration<wbr>Form</div>
+    <p>
+        2 <bdi>السلام عليكم</bdi> welcome
+    </p>
+    -->
+    <!-- 34-IFrame Pre and Code 
+         IFrame = using in calling completed webpages for (some) pages  
+         code = using to  write a code of any language like (php,c#,...)
+         pre(pre formating text)  = saving space and lines in text in writing text.  
+    EX:
+    <code>
+        <pre>
+        var x =10;
+        var y =11;
+        console.log(x+y);  
+    </pre>
+    </code>
+    <iframe src="192.168.234.129/#/main" width="200" height="500"></iframe>
+    -->
+    <!-- 35-Accessibility intro
+    Accessibility = you can arrive to something it's using to improve your page to caN take level
+     in the improvement 
+     Accessibility doing a ( report) by (light house) in the browser 
+    EX:
+    <form action="" method="GET">
+        <label for="user">Username</label>
+        <input type="text" id="user" name="user">
+        <button>send</button>
+        <button>reseve</button>
+    </form>
+-->
+    <!-- 36-ARia and screen readers
+            ARIA = Accessibile reach internet application
+             تمكن االصفحة من استخدام قاري الاسكرين واستخدام زرار التاب
+        role = to work like anything you want Ex:(checkbox)
+        aria-checked="true"=> meaning default cheacked is (true or False no checked)    
+        tabindex="0" => working button of (tab)
+        aria-labelledby="plan1" => like (Id)  
+    -->
+    <h1>inside chapter </h1>
+    <form action="">
+        <label for="skill1">skill1</label>
+        <input id="skill1" type="checkbox" checked>
+        <label for="skill2">skill2</label>
+        <input id="skill2" type="checkbox">
+    </form>
+    <hr>
+    <div role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="plan1">plane one</div>
+    <label id="plan1">plan one label</label>
+    <div tabindex="0">plan2</div>
+    <div tabindex="0">plan3</div>
+    37-THE END OF course
+</body>
+
+</html>
